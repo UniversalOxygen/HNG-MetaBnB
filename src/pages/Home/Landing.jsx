@@ -15,7 +15,7 @@ const Landing = () => {
         </div>
 
         <div >
-            <img src={LandingPic} alt="landing_image" /> 
+            <img id='landing_image' src={LandingPic} alt="landing_image" /> 
         </div>
     </section>
   )

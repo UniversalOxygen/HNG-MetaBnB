@@ -3,7 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 45px 100px 0 100px;
+}
 
+#navCon #LogoCon #Logo {
+    height: 32px;
+    width: 188px;
 }
 
 #navBar {
@@ -11,23 +15,29 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    min-width: 35%;
+    min-width: 33%;
 }
 
 #navBar p {
+    font-size: 15px;
     cursor: pointer;
 }
 
+#navCon #lk{
+    text-decoration: none;
+}
+
 p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #434343;
+    font-family: 'Red Rose', cursive;
 }
 
 
 button {
-    padding: 15px 27px;
-    font-size: 16px;
+    padding: 12px 15px;
+    font-size: 14px;
     font-weight: 400;
     font-family: 'Red Rose', cursive;
     background: #A02279;
@@ -38,6 +48,11 @@ button {
     cursor: pointer;
 }
 
+button:hover  {
+    color: #A02279;
+    background: #fff;
+    border: 1px solid #A02279;
+}
 
 
 /* ///////////LANDING SECTION//////// */
@@ -53,8 +68,12 @@ h1 {
     margin-bottom: 0;
     color: #434343;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 45px;
     font-family: 'Red Rose', cursive;
+}
+
+#landingProp p {
+    font-size: 16px;
 }
 
 #landingProp {
@@ -77,7 +96,7 @@ em {
 }
 
 #searchCon {
-    max-height: 40px;
+    margin-top: 40px;
 }
 
 input {
@@ -98,6 +117,11 @@ input::placeholder {
     color: #B8B8B8;
 }
 
+#landingCon #landing_image {
+    height: 420px;
+    width: 450px;
+}
+
 
 /* ///////////ADV SECTION//////// */
 
@@ -107,6 +131,11 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#advCon img {
+    height: 30px;
+    width: 190px;
 }
 
 
@@ -120,11 +149,13 @@ input::placeholder {
 }
 
 #inspCon h2 {
+    margin: 0;
     text-align: center;
     color: #000;
     font-family: 'Red Rose', cursive;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
+    margin-bottom: 25px;
 
 }
 
@@ -164,14 +195,14 @@ input::placeholder {
     font-family: 'Red Rose', cursive;
 }
 
-#MBT {
+#availability #MBT {
     font-weight: 700;
-    color: #fff;
+    color: #434343;
     Font-style: Bold
 }
 
 
-/* ///////////LANDING SECTION//////// */
+/* ///////////GIFT SECTION//////// */
 
 #GiftCon {
     display: flex;
@@ -185,33 +216,104 @@ input::placeholder {
     margin-bottom: 0;
     color: #fff;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 40px;
     font-family: 'Red Rose', cursive;
 }
 
 #GiftProp p {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
+    letter-spacing: 0.5px
 }
 
 #GiftProp {
-    padding: 50px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
 }
 
 #GiftProp button {
     margin: 0;
-    margin-top: 15px;
+    margin-top: 5px;
     height: 45px;
     padding: 0px 27px;
-    border-radius: 0;
     color: #A02279;
     background: #fff;
     border-radius: 8px;
 }
 
-#GiftCard {
-    height: 500px;
-    width: 600px;
+#GiftProp button:hover {
+    border: 1px solid #fff;
+    background: #A02279;
+    color: #fff;
 }
 
+#GiftCard {
+    height: 480px;
+    width: 580px;
+}
+
+
+/* ///////////FOOTER SECTION//////// */
+
+#FooterCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 100px 10px;
+    background: #1D1D1E;
+}
+
+
+#socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: 30px 0;
+}
+
+#socialMedia #handle {
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}
+
+#FooterCon h3 {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Red Rose', cursive;
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#Logo #Flogo {
+    height: 35px;
+    width: 170px;
+}
+
+#Logo #courtesy {
+    font-size: 10px;
+    color: #F7F7F7;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+#FooterCon P {
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Red Rose', cursive;
+    color: #F1F3F9;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#footerDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 100px 10px 50px;
+    width: 70%;
+}

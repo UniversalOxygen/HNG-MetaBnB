@@ -1,17 +1,30 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Meta from '../../components/Images/Meta_Logo.png'
 
 const Nav = () => {
   return (
     <div id='navCon'>
-        <div>
-            <img id='Logo' src={Meta} alt="metaBnB Logo" />
+        <div id='LogoCon'>
+            <Link to='/'>
+                <img id='Logo' src={Meta} alt="metaBnB Logo" />
+            </Link>
         </div>
 
         <div id='navBar'>
-                <p>Home</p>
-                <p>Place to stay</p>
-                <p>NFTs</p>
+
+                <Link id='lk' to='/'>
+                    <p>Home</p>
+                </Link>
+
+                <Link id='lk' to='/NFTs'>
+                    <p>Place to stay</p>
+                </Link>
+
+                <Link id='lk' to='#'>
+                    <p>NFTs</p>
+                </Link>
+
                 <p>Community</p>
         </div>
 

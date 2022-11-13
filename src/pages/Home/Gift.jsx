@@ -13,7 +13,7 @@ const Gift = () => {
             </div>
         </div>
 
-        <div>
+        <div id='GiftCardCon'>
             <img id='GiftCard'  src={GiftPic} alt="Gift_image" /> 
         </div>
     </section>

@@ -1,0 +1,45 @@
+#NFTsCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 100px 50px;
+}
+
+#MenuCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 100px 30px;
+}
+
+#MenuCon p {
+    cursor: pointer;
+}
+
+#btnCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 50px 0px 0px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 10px;
+    color: #B4B4B4;
+    background: #fff;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btnCon img {
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+}
+
+#btnCon p {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 13px;
+}

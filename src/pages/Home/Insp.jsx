@@ -29,7 +29,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -48,7 +48,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -67,7 +67,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -86,7 +86,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -110,7 +110,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -129,7 +129,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -148,7 +148,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
@@ -167,7 +167,7 @@ const Insp = () => {
                   <img src={Star} alt="Star_image" />
                 </div>
 
-                <div>
+                <div id='availability'>
                   <p id='MBT'>1MBT per night</p>
                   <p>available for 2weeks stay</p>
                 </div>
