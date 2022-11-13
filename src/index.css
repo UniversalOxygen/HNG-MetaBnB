@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;500;600;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Red+Rose:wght@400;500;700&family=Roboto:wght@100;400&family=Work+Sans:wght@600&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Rose', cursive;
+}
