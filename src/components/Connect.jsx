@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Meta from './Images/metamask.png'
+import wall from './Images/walletConnect.png'
 import xx from './Images/x.png'
 import arrow from './Images/arrow.png'
 import '../components/Connect.css';
@@ -30,7 +31,7 @@ const Connect = () => {
           
           <div id='walletinput'>
             
-          <img id='Logo' src={Meta} alt="metaBnB Logo" />
+          <img id='Logo' src={wall} alt="metaBnB Logo" />
           <img className='arrow' id='Logo' src={arrow} alt="metaBnB Logo" />
           </div>
 
