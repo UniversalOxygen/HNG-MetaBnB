@@ -19,14 +19,14 @@ const Insp = () => {
 
     <Container className='py-5' id='inspCon'>
           <div mx-auto>
-            <h2>Inspiration for your next adventure</h2>
+            <h2 id='inspire'>Inspiration for your next adventure</h2>
           </div>
           
           <Row id='NFTrow'>
         
-              <Col className='mb-4' id='NFTcon'>
+              <Col  className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
                 <Card id='NFTcard' style={{ width: '16rem' }}>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_1} alt="NFT_image" />
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_5} alt="NFT_image" />
                   <Card.Body>
                     <Card.Text>
                       <Row className='mt-0' id='NFTdetails'>
@@ -46,9 +46,9 @@ const Insp = () => {
                 </Card>
               </Col>
 
-              <Col className='mb-4' id='NFTcon'>
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
                 <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_6} alt="NFT_image" />
                   <Card.Body>
                     <Card.Text>
                       <Row id='NFTdetails'>
@@ -68,7 +68,74 @@ const Insp = () => {
                 </Card>
               </Col>
         
-              <Col className='mb-4' id='NFTcon'>
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
+                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_7} alt="NFT_image" />
+                  <Card.Body>
+                    <Card.Text>
+                      <Row id='NFTdetails'>
+                        <Col>
+                          <p>Desert king</p>
+                          <p>2345Km away</p>
+                          <img src={Star} alt="Star_image" />
+                        </Col>
+
+                        <Col id='availability'>
+                          <p id='MBT'>1MBT per night</p>
+                          <p>available for 2weeks stay</p>
+                        </Col>
+                      </Row> 
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
+                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_8} alt="NFT_image" />
+                  <Card.Body>
+                    <Card.Text>
+                      <Row id='NFTdetails'>
+                        <Col>
+                          <p>Desert king</p>
+                          <p>2345Km away</p>
+                          <img src={Star} alt="Star_image" />
+                        </Col>
+
+                        <Col id='availability'>
+                          <p id='MBT'>1MBT per night</p>
+                          <p>available for 2weeks stay</p>
+                        </Col>
+                      </Row> 
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
+                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_1} alt="NFT_image" />
+                  <Card.Body>
+                    <Card.Text>
+                      <Row id='NFTdetails'>
+                        <Col>
+                          <p>Desert king</p>
+                          <p>2345Km away</p>
+                          <img src={Star} alt="Star_image" />
+                        </Col>
+
+                        <Col id='availability'>
+                          <p id='MBT'>1MBT per night</p>
+                          <p>available for 2weeks stay</p>
+                        </Col>
+                      </Row> 
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
                 <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
                   <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
                   <Card.Body>
@@ -90,76 +157,9 @@ const Insp = () => {
                 </Card>
               </Col>
 
-
-              <Col className='mb-4' id='NFTcon'>
-                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
-                  <Card.Body>
-                    <Card.Text>
-                      <Row id='NFTdetails'>
-                        <Col>
-                          <p>Desert king</p>
-                          <p>2345Km away</p>
-                          <img src={Star} alt="Star_image" />
-                        </Col>
-
-                        <Col id='availability'>
-                          <p id='MBT'>1MBT per night</p>
-                          <p>available for 2weeks stay</p>
-                        </Col>
-                      </Row> 
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-
-              <Col className='mb-4' id='NFTcon'>
-                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
-                  <Card.Body>
-                    <Card.Text>
-                      <Row id='NFTdetails'>
-                        <Col>
-                          <p>Desert king</p>
-                          <p>2345Km away</p>
-                          <img src={Star} alt="Star_image" />
-                        </Col>
-
-                        <Col id='availability'>
-                          <p id='MBT'>1MBT per night</p>
-                          <p>available for 2weeks stay</p>
-                        </Col>
-                      </Row> 
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-
-              <Col className='mb-4' id='NFTcon'>
-                <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
-                  <Card.Body>
-                    <Card.Text>
-                      <Row id='NFTdetails'>
-                        <Col>
-                          <p>Desert king</p>
-                          <p>2345Km away</p>
-                          <img src={Star} alt="Star_image" />
-                        </Col>
-
-                        <Col id='availability'>
-                          <p id='MBT'>1MBT per night</p>
-                          <p>available for 2weeks stay</p>
-                        </Col>
-                      </Row> 
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-
-              <Col className='mb-4' id='NFTcon'>
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
                 <Card id='NFTcard' style={{ width: '16rem'}} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_3} alt="NFT_image" />
                   <Card.Body>
                     <Card.Text>
                       <Row id='NFTdetails'>
@@ -179,9 +179,9 @@ const Insp = () => {
                 </Card>
               </Col>
               
-              <Col className='mb-4' id='NFTcon'>
+              <Col className='mb-4 d-flex justify-content-center align-item-center' id='NFTcon'>
                 <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
-                  <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
+                  <Card.Img variant="top" id='NFT_Image' src={NFT_4} alt="NFT_image" />
                   <Card.Body>
                     <Card.Text>
                       <Row id='NFTdetails'>

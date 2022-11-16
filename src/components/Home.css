@@ -333,7 +333,8 @@ input::placeholder {
     /* ///////////LANDING SECTION//////// */
 
     #landingCon {
-        padding: 50px 70px ;
+        padding: 10px 70px 50px;
+        margin-top: 0;
     }
 
     h1 {
@@ -435,7 +436,6 @@ input::placeholder {
         padding: 10px 30px 0;
     }
     
-
     #locc, .locc {
         display: none;
     }
@@ -459,7 +459,7 @@ input::placeholder {
 
 
     #advCon {
-        padding: 5px 30px;
+        padding: 5px 0px;
     }  
 
     
@@ -471,9 +471,10 @@ input::placeholder {
 
     
 #inspCon h2 {
-    font-size: 12px;
+    font-size: 20px;
     width: 50%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -488,6 +489,7 @@ input::placeholder {
 
     #FooterCon {
         flex-direction: column;
+            padding: 30px 30px 10px;
     }
 
     #footerDetails  {

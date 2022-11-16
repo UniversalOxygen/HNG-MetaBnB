@@ -8,7 +8,7 @@ import Adv3 from '../../components/Images/Adv3.svg'
 
 const Adv = () => {
   return (
-      <Container id='advCon' fluid>
+      <Container className='mb-4 d-flex justify-content-center align-item-center' id='advCon' fluid>
         <Row id='ady'>
           <Col>
             <img src={Adv1} alt="advImage" /> 
