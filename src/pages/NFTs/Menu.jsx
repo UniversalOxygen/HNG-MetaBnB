@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../components/NFTs.css';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';

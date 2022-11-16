@@ -36,3 +36,11 @@
 input::placeholder {
     font-size: 10px;
 }
+
+
+
+@media (max-width: 480px) {
+    .locc, #MenuCon {
+        display: none;
+    }
+}
