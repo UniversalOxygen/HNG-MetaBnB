@@ -1,5 +1,6 @@
 import React from 'react'
-import Nav from '../pages/Home/Nav';
+
+import Nav from '../pages/Home/Navv';
 import '../components/Home.css';
 import Landing from '../pages/Home/Landing';
 import Adv from '../pages/Home/Adv';

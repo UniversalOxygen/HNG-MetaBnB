@@ -1,0 +1,104 @@
+
+#popCon {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 800ms ease-in-out;
+  border: 1px solid #667085;
+  border-radius: 8px;
+  z-index: 10;
+  background: #fff;
+
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .95);
+  transition: 400ms ease-in-out;
+}
+
+
+#choose {
+  font-size: 10px;
+  color: #434343;
+  font-family: 'Red Rose', cursive;
+  width: 400px;
+  height: 10px;
+  white-space: nowrap ;
+}
+
+.cross {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+#walletinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #d0d1d5;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 15px 0;
+  background: #eff4f7;
+
+
+}
+
+#walletinput #Logo {
+  height: 27px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 25px 0;
+}
+
+#body {
+  padding: 12px 25px;
+}
+hr {
+  margin: 5px 0;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+  #header {
+    padding: 6px 25px 0;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  #choose {
+    font-size: 10px;
+    color: #434343;
+    font-family: 'Red Rose', cursive;
+    width: 250px;
+    height: 5px;
+    white-space: nowrap;
+    margin-bottom: 15px;
+  }
+
+  
+#walletinput {
+  padding: 3px;
+  margin: 9px 0 7px;
+
+
+}
+}

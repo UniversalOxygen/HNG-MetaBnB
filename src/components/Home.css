@@ -1,42 +1,9 @@
 #navCon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 45px 100px 0 100px;
+    padding: 20px 50px;
 }
 
-#navCon #LogoCon #Logo {
-    height: 32px;
-    width: 188px;
-}
-
-#navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    min-width: 33%;
-}
-
-#navBar p {
-    font-size: 15px;
-    cursor: pointer;
-}
-
-#navCon #lk{
-    text-decoration: none;
-}
-
-p {
-    font-size: 15px;
-    font-weight: 400;
-    color: #434343;
-    font-family: 'Red Rose', cursive;
-}
-
-
-button {
-    padding: 12px 15px;
+#NavBtn {
+    padding: 10px 15px;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Red Rose', cursive;
@@ -48,21 +15,24 @@ button {
     cursor: pointer;
 }
 
-button:hover  {
+#NavBtn:hover  {
     color: #A02279;
     background: #fff;
     border: 1px solid #A02279;
+}
+
+.locc {
+    text-decoration: none;
+    color: #434343;
 }
 
 
 /* ///////////LANDING SECTION//////// */
 
 #landingCon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 50px 100px ;
+    padding: 0px 50px;
 }
+
 
 h1 {
     margin-bottom: 0;
@@ -74,19 +44,19 @@ h1 {
 
 #landingProp p {
     font-size: 16px;
+    color: #434343;
+    font-family: 'Red Rose', cursive;
 }
 
 #landingProp {
-    padding: 10px 0px 0px 0px;
+    padding: 0px;
 }
 
-#landingProp button {
-    margin: 0;
-    height: 45px;
+#LdBtn {
     padding: 0px 27px;
-    border-radius: 0;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    background: #A02279;
+    color: #fff;
+    border: none;
 }
 
 em {
@@ -95,31 +65,18 @@ em {
     font-style: normal;
 }
 
-#searchCon {
-    margin-top: 40px;
-}
-
-input {
-    height: 44px;
-    border: 1px solid #A3A3A3;
-    width: 390px;
-    padding: 0px 15px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-right: none;
-    margin: 0;
-}
 
 input::placeholder {
     font-family: 'Red Rose', cursive;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: #B8B8B8;
 }
 
-#landingCon #landing_image {
-    height: 420px;
-    width: 450px;
+ #landing_image {
+    margin: 0;
+    height: 370px;
+    width: 400px;
 }
 
 
@@ -128,9 +85,8 @@ input::placeholder {
 #advCon {
     padding: 5px 0px;
     background: #A02279;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 5px 70px;
 }
 
 #advCon img {
@@ -140,13 +96,6 @@ input::placeholder {
 
 
 /* ///////////NFT SECTION//////// */
-
-#inspCon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px 100px;
-}
 
 #inspCon h2 {
     margin: 0;
@@ -159,37 +108,16 @@ input::placeholder {
 
 }
 
-#NFTrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    margin-bottom: 20px;
-
-}
-
-#NFTcon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    border: 1px solid #D7D7D7;
+#NFTcard {
     border-radius: 15px;
+    padding: 10px;
 }
 
 
-#NFTdetails {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-}
-
-#NFT_Image {
-    height:280px ;
-    width: 250px;
-}
-
-#NFTdetails p {
+#NFTcard  p {
+    margin: -3px;
     font-size: 12px;
+    line-height: 21px;
     color: #434343;
     font-weight: 400;
     font-family: 'Red Rose', cursive;
@@ -202,14 +130,10 @@ input::placeholder {
 }
 
 
-/* ///////////GIFT SECTION//////// */
+/* ///////////GIFT SECTION////////*/
 
 #GiftCon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 50px 130px 50px 100px ;
-    background: #A02279;
+    padding: 30px 70px 10px;
 }
 
 #GiftProp h1 {
@@ -231,7 +155,7 @@ input::placeholder {
     padding: 70px 0px 0px 0px;
 }
 
-#GiftProp button {
+#searchCon {
     margin: 0;
     margin-top: 5px;
     height: 45px;
@@ -239,9 +163,10 @@ input::placeholder {
     color: #A02279;
     background: #fff;
     border-radius: 8px;
+    border: none;
 }
 
-#GiftProp button:hover {
+#searchCon:hover {
     border: 1px solid #fff;
     background: #A02279;
     color: #fff;
@@ -255,12 +180,8 @@ input::placeholder {
 
 /* ///////////FOOTER SECTION//////// */
 
-#FooterCon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px 100px 10px;
-    background: #1D1D1E;
+ #FooterCon {
+    padding: 30px 70px 10px;
 }
 
 
@@ -268,8 +189,8 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
-    margin: 30px 0;
+    width: 30%;
+    margin: 40px 0;
 }
 
 #socialMedia #handle {
@@ -279,7 +200,7 @@ input::placeholder {
 }
 
 #FooterCon h3 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     font-family: 'Red Rose', cursive;
     color: #fff;
@@ -301,7 +222,7 @@ input::placeholder {
 }
 
 #FooterCon P {
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 400;
     font-family: 'Red Rose', cursive;
     color: #F1F3F9;
@@ -310,10 +231,272 @@ input::placeholder {
     cursor: pointer;
 }
 
-#footerDetails {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px 100px 10px 50px;
-    width: 70%;
+
+
+
+@media (max-width: 1024px) {
+
+
+    
+#navCon #Logo {
+    height: 30px;
+    width: 185px;
 }
+
+#locc, .locc {
+    font-size: 12px;
+}
+
+    /* ///////////LANDING SECTION//////// */
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #landingProp p {
+        font-size: 12px;
+    }
+
+    #landingProp {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #landingProp button {
+        margin: 0;
+        height: 40px;
+        padding: 0px 25px;
+    }
+
+
+    #searchCon {
+        margin-top: 30px;
+    }
+
+    #landingCon #landing_image {
+        height: 270px;
+        width: 350px;
+    } 
+
+
+/* /////////////////////////////////// */
+
+#inspCon h2 {
+    font-size: 30px;
+
+}
+
+
+    /* ///////////GIFT SECTION//////// */
+
+ #GiftCon {
+    padding: 50px 70px ;
+}
+
+#GiftProp h1 {
+    font-size: 35px;
+}
+
+
+#GiftCard {
+    height: 300px;
+    width: 330px;
+}
+
+}
+
+
+/* ////////////// */
+@media (max-width: 768px) {
+
+    #navCon {
+        padding: 25px 70px 0px;
+    }
+    
+    #navCon #Logo {
+        height: 20px;
+        width: 100px;
+    }
+
+    #locc, .locc {
+        font-size: 12px;
+    }
+    
+    
+    #NavBtn {
+        font-size: 11px;
+        cursor: pointer;
+        padding: 7px 0px;
+    }
+    
+    
+
+    /* ///////////LANDING SECTION//////// */
+
+    #landingCon {
+        padding: 50px 70px ;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    #landingProp p {
+        font-size: 11px;
+    }
+
+    #landingProp {
+        margin: -10px 0px 0px 0px;
+    }
+
+
+    #searchCon {
+        margin-top: 30px;
+    }
+
+    input::placeholder {
+        font-size: 11px;
+    }
+
+    #landingCon #landing_image {
+        height: 220px;
+        width: 270px;
+    }
+
+
+/* ///////////NFT SECTION//////// */
+
+#inspCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#inspCon h2 {
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-family: 'Red Rose', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+#NFTdetails p {
+    font-size: 10px;
+    color: #434343;
+    font-weight: 400;
+    font-family: 'Red Rose', cursive;
+}
+
+#availability #MBT {
+    font-weight: 700;
+    color: #434343;
+    Font-style: Bold
+}
+
+    /* ///////////GIFT SECTION//////// */
+
+#GiftCon {
+    padding: 50px 70px ;
+}
+
+#GiftProp h1 {
+    font-size: 25px;
+}
+
+#GiftProp p {
+    font-size: 11px;
+}
+
+#GiftProp {
+    padding:0px 0px 0px 0px;
+}
+
+#GiftProp button {
+    margin-top: 0px;
+    height: 28px;
+    padding: 0px 15px;
+    font-size: 12px;
+}
+
+#GiftCard {
+    height: 220px;
+    width: 250px;
+}
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    #navCon {
+        padding: 10px 30px 0;
+    }
+    
+
+    #locc, .locc {
+        display: none;
+    }
+    
+    #navCon #Logo {
+        height: 23px;
+        width: 130px;
+    }
+
+    #landingCon {
+        padding: 0px 30px;
+    }
+    
+
+    #landingCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+
+    #advCon {
+        padding: 5px 30px;
+    }  
+
+    
+    #ady {
+        align-items: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    
+#inspCon h2 {
+    font-size: 12px;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+    #GiftCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #FooterCon {
+        flex-direction: column;
+    }
+
+    #footerDetails  {
+        flex-direction: column;
+    }
+
+
+    #uty {
+        margin: 20px 0;
+    }
+}
+

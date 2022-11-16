@@ -1,4 +1,8 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 import NFT_1 from '../../components/Images/NFT_1.png'
 import NFT_2 from '../../components/Images/NFT_2.png'
 import NFT_3 from '../../components/Images/NFT_3.png'
@@ -20,335 +24,365 @@ import Star from '../../components/Images/Star.png'
 
 const NFT = () => {
   return (
-    <section id='NFTsCon'>
-         
-        <div id='NFTrow'>
-        
-
-            <div id='NFTcon'>
-                <div>
-                    <img id='NFT_Image' src={NFT_5} alt="NFT_image" />
-
-                    <div id='NFTdetails'>
-                        <div>
-                            <p>Desert king</p>
-                            <p>2345Km away</p>
-                            <img src={Star} alt="Star_image" />
-                        </div>
-
-                        <div id='availability'>
-                            <p id='MBT'>1MBT per night</p>
-                            <p>available for 2weeks stay</p>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_6} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_7} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_8} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-        </div>
-
-        {/* ////////SECOND ROW/////// */}
-        <div id='NFTrow'>
-        
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_1} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_2} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_3} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_4} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-        </div>
-
-
-        {/* ///////// */}
-
-        <div id='NFTrow'>
-        
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_9} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_10} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_11} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_12} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-        </div>
-
-
-        {/* ///////// */}
-
-        <div id='NFTrow'>
-        
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_13} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_14} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_15} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-
-
-            <div id='NFTcon'>
-            <div>
-                <img id='NFT_Image' src={NFT_16} alt="NFT_image" />
-                <div id='NFTdetails'>
-                <div>
-                    <p>Desert king</p>
-                    <p>2345Km away</p>
-                    <img src={Star} alt="Star_image" />
-                </div>
-
-                <div id='availability'>
-                    <p id='MBT'>1MBT per night</p>
-                    <p>available for 2weeks stay</p>
-                </div>
-                </div> 
-            </div>
-            </div>
-        </div>
-
-
-
-    </section>
+    <Container className='py-5' id='inspCon'>
+                    <Row id='NFTrow'>
+                    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }}>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_5} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row className='mt-0' id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks&nbsp;stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_6} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_7} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_8} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_1} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_2} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem'}} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_3} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_4} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }}>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_9} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row className='mt-0' id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks&nbsp;stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_10} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_11} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_12} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_13} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_14} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem'}} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_15} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    
+                    <Col className='mb-4' id='NFTcon'>
+                    <Card id='NFTcard' style={{ width: '16rem' }} className='p-2'>
+                        <Card.Img variant="top" id='NFT_Image' src={NFT_16} alt="NFT_image" />
+                        <Card.Body>
+                        <Card.Text>
+                            <Row id='NFTdetails'>
+                            <Col>
+                                <p>Desert king</p>
+                                <p>2345Km away</p>
+                                <img src={Star} alt="Star_image" />
+                            </Col>
+    
+                            <Col id='availability'>
+                                <p id='MBT'>1MBT per night</p>
+                                <p>available for 2weeks stay</p>
+                            </Col>
+                            </Row> 
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+    
+                </Row>
+    </Container>
+    
   )
 }
 
